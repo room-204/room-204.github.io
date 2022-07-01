@@ -1,3 +1,18 @@
+* {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#popup {
+    position: relative;
+    color: white;
+    z-index: 999999999999999999999999999;
+}
+
 body{
     background-color: rgb(52,41,171); /*52,41,171*/
     margin-top: 0;
@@ -16,6 +31,7 @@ body{
 
 
 header {
+    z-index: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -65,4 +81,8 @@ height: 200%;
 
 .space{
     height: 300px;
+}
+
+#big{
+    width: 320px;
 }

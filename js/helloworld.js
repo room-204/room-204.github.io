@@ -1,9 +1,10 @@
-function damaY(){
-  var dama = document.getElementById('bul');
-  if(dama.scroll.match("dama_y")){
-    dama.src = "./img/jun_1.png";
-  }
-  else{
-    dama.src = "./img/2.png";
-  }
+function popupPicture(index){
+    const popup = document.getElementById('popup');
+    switch(index) {
+        case 0: {
+            popup.firstChild.
+        }
+    }
+    popup.style.opacity = 1;
+    alert('damaya');
 }
