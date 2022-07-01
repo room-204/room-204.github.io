@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(52,41,171); /*52,41,171*/
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.image{
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 1rem;
+    color: white;
+    background: rgb(1, 15, 145);
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+
+
+body, html {
+height: 200%;
+}
+
+.head{
+    font-size: 20px;
+    color: rgb(255, 225, 0);
+    padding: 10px;
+}
+
+#ll{
+
+    padding: 50px;
+}
+
+#last{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    font-style: oblique;
+    color: yellow;
+    text-align: center;
+    
+}
+
+.small-test{
+    width: 300px;
+
+}
+
+.space{
+    height: 300px;
+}
